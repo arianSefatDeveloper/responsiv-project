@@ -1,0 +1,409 @@
+@font-face {
+    font-family:"Dana" ; /* 400*/
+    src: local("Dana"), url("./fonts/Dana/woff2/DanaFaNum-Regular.woff2") format("woff2");
+    font-display: swap;
+}
+@font-face {
+    font-family:"Dana Medium" ;/* 500*/
+    src: local("Dana Medium"), url("./fonts/Dana/woff2/DanaFaNum-Medium.woff2") format("woff2");
+    font-display: swap;
+}
+@font-face {
+    font-family:"Dana DemiBold" ;/* 600*/
+    src: local("Dana DemiBold"), url("./fonts/Dana/woff2/DanaFaNum-DemiBold.woff2") format("woff2");
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family:"Morabba Light" ;
+    src: local("Morabba Light"), url("./fonts/Morabba/woff2/Morabba-Light.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family:"Morabba Medium" ;
+    src: local("Morabba Medium"), url("./fonts/Morabba/woff2/Morabba-Medium.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family:"Morabba Bold" ;
+    src: local("Morabba Bold") , url("./fonts/Morabba/woff2/Morabba-Bold.woff2") format("woff2");
+    font-display: swap;
+}
+*{
+
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Shabnam', sans-serif; */
+    font-family: "Dana DemiBold";
+
+    
+    
+}
+
+.Morabba_Bold{
+    font-family:"Morabba Bold" ;
+}
+.Morabba_Light{
+    font-family:"Morabba Light" ;
+}
+.Morabba_Medium{
+    font-family:"Morabba Medium" ;
+}
+.Dana_Regular{
+    font-family:"Dana" ;
+}
+.Dana_Bold{
+    font-family:"Dana Bold" ;
+}
+.Dana_Medium{
+    font-family:"Dana Medium" ;
+}
+
+
+/* ======================================
+                  XL
+========================================= */
+@media (min-width:1200px) {
+    
+}
+
+/* ======================================
+                 end of  XL
+========================================= */
+ 
+
+
+
+
+
+/* ======================================
+                  lg
+========================================= */
+@media (min-width:992px) and (max-width:1199px) {
+    
+    
+}
+
+/* ======================================
+                 end of  lg
+========================================= */
+
+
+
+
+
+
+
+/* ======================================
+                  md
+========================================= */
+@media (min-width:768px) and (max-width:921px) {
+    .btn-search{
+     
+        transition: 1s;
+    }
+    .btn-search:hover{
+        transform: translate(-3px);
+        color: rgb(75, 174, 240) !important ;
+    }
+    
+
+    
+    
+}
+
+/* ======================================
+                 end of  md
+========================================= */
+
+           
+
+
+
+
+
+
+
+/* ======================================
+                  sm
+========================================= */
+@media (min-width:576px) and (max-width:767px) {
+    .carousel-caption{
+        margin-top: 450px;
+    } 
+    
+    
+}
+
+/* ======================================
+                 end of  sm
+========================================= */
+
+
+
+
+
+
+/* ======================================
+                  mobile
+========================================= */
+@media  (max-width:575px) {
+    .carousel-caption{
+        margin-top: 850px;
+        
+        margin-bottom: 0% !important;
+        bottom: 100px!important;
+    } 
+    .carousel-caption h5{
+        font-size: 20px !important;
+
+    }
+    .carousel-caption p{
+        font-size: 15px !important;
+
+    }
+    
+    
+    
+    
+}
+
+/* ======================================
+                 end of  mobile
+========================================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+===================
+nav-bar
+=================== 
+*/
+
+
+
+.logo-image{
+    width: 52px;
+    height: 52px;
+    margin-left: 8px;
+    transition: 1s;
+}
+.logo-image:hover{
+    transform: rotate(180deg) ;
+}
+.text-span-color{
+    color: #ffc107;
+    font-size: 25px;
+}
+
+.search-box{
+    outline: none;
+    border: none;
+    background: rgb(255, 255, 255);
+}
+.btn-search{
+    outline: none;
+    border: none;
+    background: none;
+    
+  
+    font-weight: bolder;
+    font-size: 18px;
+    transition: 1s;
+}
+.btn-search:hover{
+    transform: translateY(-3px);
+   
+}
+.navbar-page{
+    background: rgb(18, 19, 19);
+}
+.nave-itme-hover{
+    transition: 1s;
+}
+.nave-itme-hover:hover{
+    color: #ffc107 !important ;
+    transform: translateY(-3px);
+    
+    
+    
+
+}
+.navbar-toggler{
+    color: white !important;
+    border-color:#ffc107 !important ;
+}
+.navbar-toggler-icon{
+    background: white !important;
+    color: black !important;
+}
+.navbar-toggler-ico{
+    color: white !important;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/*
+===================
+ end of nav-bar
+=================== 
+*/
+
+
+
+
+
+/*
+===================
+      Carousel
+=================== 
+*/
+.btn-bg{
+    background: rgb(30, 240, 229);
+}
+
+.image-carousel{
+    height: 80vh;
+    
+}
+
+
+
+.carousel-item{
+    height: 80vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+
+}
+.carousel-caption p{
+    width: 100%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(22, 22, 22, 0.4);
+    z-index: 1;
+}
+
+
+.carousel-control-prev-icon{
+    bottom: 800px !important;
+}
+
+/*
+===================
+ end of Carousel
+=================== 
+*/
+
+
+   
+  
+
+/*
+ ========================
+     SErvices section
+======================== */
+
+.card-body i {
+    font-size:45cpx !important;
+}
+
+/* 
+  ========================
+   End of SErvices section
+  ========================
+  */
+
+
+
+
+
+/* 
+  ========================
+    project section
+  ========================
+  */
+  
+  .project-class-img{
+      height: 400px;
+      width: auto;
+  }
+
+/* 
+  ========================
+   End of project  section
+  ========================
+  */
+
+
+.portofolio .card{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.team .card{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+
+  /* 
+  ========================
+    team  section
+  ========================
+  */
+  .image-team{
+      width: auto;
+      height:250px;
+      border-radius: 5% !important;
+
+  }
+
+
+.socials .icon{
+    font-size: 20px !important;
+}
+
+
+
+
+    /* 
+  ========================
+   End of team  section
+  ========================
+  */
